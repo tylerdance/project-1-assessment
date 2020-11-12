@@ -1,0 +1,32 @@
+#display {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    font-size: 40px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: gray;
+}
+
+input [type=text] {
+    /* box-sizing: border-box; */
+    border: 3px solid gray;
+    /* border-radius: 4px; */
+    /* border-color: rgb(232, 15, 15); */
+}
